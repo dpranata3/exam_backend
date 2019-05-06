@@ -53,7 +53,7 @@ router.get('/categories/catgAll', (req, res) => {
 
         const categories = result // Result berupa array of object
 
-        if(!categories) return res.send("Categories not found") // User tidak ditemukan
+        if(!categories) return res.send("Categories not found") // Categories tidak ditemukan
 
         res.send({
             categories

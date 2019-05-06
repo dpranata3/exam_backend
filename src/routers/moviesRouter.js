@@ -53,7 +53,7 @@ router.get('/movies/movieAll', (req, res) => {
 
         const movies = result // Result berupa array of object
 
-        if(!movies) return res.send("Movie not found") // User tidak ditemukan
+        if(!movies) return res.send("Movie not found") // Movie tidak ditemukan
 
         res.send({
             movies
