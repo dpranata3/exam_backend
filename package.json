@@ -1,0 +1,17 @@
+{
+  "name": "exam_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "env-cmd ../config/dev.env nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "github:mysqljs/mysql",
+    "nodemon": "^1.19.0"
+  }
+}
